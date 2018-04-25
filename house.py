@@ -26,6 +26,6 @@ lin_reg_2.fit(X_poly,datasets_y)
 
 plt.scatter(datasets_x,datasets_y,color='blue')
 plt.plot(X,lin_reg_2.predict(poly_reg.fit_transform(X)),color = 'green')
-#plt.xlable('Area')
-#plt.ylable('Price')
+plt.xlabel('Area')
+plt.ylabel('Price')
 plt.show()
