@@ -5,7 +5,7 @@ from sklearn.preprocessing import PolynomialFeatures
 
 datasets_x = []
 datasets_y = []
-fr = open('/Users/JDN/codebase/prices.txt')
+fr = open('prices.txt')
 lines = fr.readlines()
 for line in lines:
     items = line.strip().split(',')
